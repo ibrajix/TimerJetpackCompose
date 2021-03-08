@@ -12,7 +12,6 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -49,7 +48,11 @@ android {
         renderScript false
         resValues false
         shaders false
+
+        viewBinding  true
+
     }
+
 
     composeOptions {
         kotlinCompilerExtensionVersion compose_version
@@ -73,6 +76,18 @@ dependencies {
     implementation "androidx.compose.material:material-icons-extended:$compose_version"
     implementation "androidx.compose.ui:ui-tooling:$compose_version"
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.0'
+
+    implementation "androidx.compose.runtime:runtime-livedata:$compose_version"
+
+    //viewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha02"
+
+    //konfetti
+    implementation 'nl.dionsegijn:konfetti:1.2.6'
+
+    //view binding
+    implementation "androidx.compose.ui:ui-viewbinding:$compose_version"
+
 
     testImplementation 'junit:junit:4.13.2'
 

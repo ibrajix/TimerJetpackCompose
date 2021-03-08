@@ -6,7 +6,9 @@
 
 
 ## :scroll: Description
-<!--- Simple countdown timer app - counts from an hour downward and displays a "cenfetti" when completed -->
+<!--- description -->
+
+Simple countdown timer app - counts from an hour downward and displays a "cenfetti" when completed
 
 
 ## :bulb: Motivation and Context

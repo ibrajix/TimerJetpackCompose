@@ -75,8 +75,11 @@ dependencies {
     implementation "androidx.compose.material:material:$compose_version"
     implementation "androidx.compose.material:material-icons-extended:$compose_version"
     implementation "androidx.compose.ui:ui-tooling:$compose_version"
+
+    //life cycle
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.0'
 
+    //runtime liveDate
     implementation "androidx.compose.runtime:runtime-livedata:$compose_version"
 
     //viewModel
@@ -87,7 +90,6 @@ dependencies {
 
     //view binding
     implementation "androidx.compose.ui:ui-viewbinding:$compose_version"
-
 
     testImplementation 'junit:junit:4.13.2'
 

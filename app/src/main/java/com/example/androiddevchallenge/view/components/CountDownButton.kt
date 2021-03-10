@@ -40,7 +40,7 @@ fun CountDownButton(
                 .height(70.dp)
                 .width(200.dp),
 
-            shape = RoundedCornerShape(25.dp),
+//            shape = RoundedCornerShape(25.dp),
 
             colors = ButtonDefaults.buttonColors(
                 backgroundColor = colorResource(id = R.color.pink),

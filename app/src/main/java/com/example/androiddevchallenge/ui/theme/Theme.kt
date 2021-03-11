@@ -33,7 +33,6 @@ private val LightColorPalette = lightColors(
     primaryVariant = purple700,
     secondary = teal200,
 
-
     background = Color.White,
     surface = Color.White,
     onPrimary = Color.White,
